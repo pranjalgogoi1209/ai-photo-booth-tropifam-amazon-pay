@@ -1,54 +1,38 @@
 .CameraPage {
   gap: 5dvh;
   height: calc(100dvh - 15dvh);
-  /* border: 1px solid #fff; */
+  border: 1px solid #fff;
   justify-content: flex-start !important;
   padding: 5dvh 0;
   .header {
     /* border: 1px solid #fff; */
-    height: 6dvh;
+    height: 7dvh;
     .captureTxtImg {
-      width: 55dvh;
+      width: 60dvh;
     }
     .likeThisImg {
-      width: 47dvh;
+      width: 53dvh;
     }
   }
 
   .main {
-    /* border: 1px solid #fff; */
-    width: 55vw;
-    clip-path: polygon(
-      10% 0,
-      100% 0,
-      100% 20%,
-      100% 89%,
-      90% 100%,
-      20% 100%,
-      0 100%,
-      0 11%
-    );
-    background: linear-gradient(to right, #42d3d3, #f24ec1);
+    border: 1px solid red;
+    width: 88vw;
+    height: 60vw;
+    border-radius: 1vh;
+    /* background: 1px solid red; */
     padding: 1vw 0.8vw;
 
     .webcamParent {
-      clip-path: polygon(
-        10% 0,
-        100% 0,
-        100% 20%,
-        100% 89%,
-        90% 100%,
-        20% 100%,
-        0 100%,
-        0 11%
-      );
       position: relative;
-      width: 99%;
+      width: 100%;
+      height: 100%;
       overflow: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
-      /* background-color: red; */
+      background-color: rgb(239, 233, 233);
+      border-radius: 1vh;
       #webcam {
         width: 100%;
       }
@@ -60,7 +44,7 @@
   }
 
   .footer {
-    margin-top: 3dvh;
+    /* margin-top: 3dvh; */
     /* border: 1px solid #fff; */
     .afterCaptureBtnContainer {
       gap: 4dvh;

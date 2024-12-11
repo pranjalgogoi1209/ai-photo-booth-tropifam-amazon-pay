@@ -29,7 +29,7 @@
 }
 
 body {
-  background: url("./../src/assets/bg.jpg") center / cover repeat;
+  background: url("./../src/assets/bg.png") center / cover repeat;
   height: 100dvh;
   overflow: hidden;
   /* border: 1px solid #fff; */

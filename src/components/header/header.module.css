@@ -1,8 +1,25 @@
 .Header {
   /* border: 1px solid #fff; */
-  height: 15dvh;
-  .imgContainer {
-    width: 25dvh;
+  justify-content: flex-start !important;
+  align-items: flex-start;
+  flex-direction: row;
+  display: flex;
+  height: 17dvh;
+  padding: 1vh;
+  gap: 9vw;
+  .payLogo {
+    align-self: flex-start;
     /* border: 1px solid #fff; */
+    padding: 1.5vh;
+    width: 20dvh;
+    /* height: 10dvh; */
+  }
+  .imgContainer {
+    padding-top: 3vh;
+    width: 18.5dvh;
+    /* border: 1px solid #fff; */
+
+    display: flex;
+    justify-content: center;
   }
 }

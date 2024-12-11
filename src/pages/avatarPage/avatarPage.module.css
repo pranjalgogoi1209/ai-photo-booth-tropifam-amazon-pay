@@ -1,15 +1,16 @@
 .AvatarPage {
-  height: calc(100dvh - 15dvh);
-  gap: 3dvh;
+  height: calc(100dvh - 21dvh);
+  gap: 1dvh;
   .headingImgContainer {
-    width: 55dvh;
+    width: 54dvh;
+    /* padding-top: 1dvh; */
   }
   .main {
     /* border: 1px solid #fff; */
     width: 90%;
-    height: 80%;
+    height: 60%;
     flex-wrap: wrap;
-    gap: 2dvh;
+    gap: 1dvh;
     .singleImg {
       /* overflow: hidden; */
       cursor: pointer;
@@ -55,33 +56,13 @@
       }
     }
     .horiImg {
-      width: 22.5dvh;
+      width: 15.5dvh;
       .hoverContainer {
-        clip-path: polygon(
-          12% 0,
-          100% 0,
-          100% 20%,
-          100% 87%,
-          89% 100%,
-          20% 100%,
-          0 100%,
-          0 14%
-        );
       }
     }
     .vertImg {
-      width: 18.8dvh;
+      width: 15.5dvh;
       .hoverContainer {
-        clip-path: polygon(
-          10% 0,
-          100% 0,
-          100% 20%,
-          100% 93%,
-          90% 100%,
-          20% 100%,
-          0 100%,
-          0 11%
-        );
       }
     }
   }

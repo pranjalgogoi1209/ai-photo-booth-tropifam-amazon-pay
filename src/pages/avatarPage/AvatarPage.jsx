@@ -142,10 +142,8 @@ export default function AvatarPage({
           <div
             key={idx}
             className={`flex-row-center ${styles.singleImg} ${
-              idx === 3 || idx === 4 || idx === 5 || idx === 6
-                ? styles.horiImg
-                : styles.vertImg
-            } `}
+              idx === 4 || idx === 5 ? styles.vertImg : styles.horiImg
+            }`}
             onClick={() => {
               setSelectedImageIndex(idx);
               const originalImg = filterOriginalImg(idx);

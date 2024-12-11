@@ -1,13 +1,13 @@
-import original01 from "./original-01.jpg";
-import original02 from "./original-02.jpg";
-import original03 from "./original-03.jpg";
-import original04 from "./original-04.jpg";
-import original05 from "./original-05.jpg";
-import original06 from "./original-06.jpg";
-import original07 from "./original-07.jpg";
-import original08 from "./original-08.jpg";
-import original09 from "./original-09.jpg";
-import original10 from "./original-10.jpg";
+import original01 from "./original-01.png";
+import original02 from "./original-02.png";
+import original03 from "./original-03.png";
+import original04 from "./original-04.png";
+import original05 from "./original-05.png";
+import original06 from "./original-06.png";
+import original07 from "./original-07.png";
+import original08 from "./original-08.png";
+import original09 from "./original-09.png";
+import original10 from "./original-10.png";
 
 export {
   original01,

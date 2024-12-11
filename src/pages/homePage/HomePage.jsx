@@ -16,9 +16,7 @@ export default function HomePage({ setUrl }) {
           <div
             key={idx}
             className={`flex-row-center ${styles.singleImg} ${
-              idx === 3 || idx === 4 || idx === 5 || idx === 6
-                ? styles.horiImg
-                : styles.vertImg
+              idx === 4 || idx === 5 ? styles.vertImg : styles.horiImg
             }`}
           >
             <img src={item} alt="avatar" />
