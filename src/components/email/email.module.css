@@ -53,7 +53,9 @@
 }
 
 .submit {
+  /* border: 5px solid #000 !important; */
   background-color: maroon !important;
+  height: 7vh;
   color: #fff !important;
 }
 
