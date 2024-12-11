@@ -1,5 +1,5 @@
 .CameraPage {
-  gap: 5dvh;
+  gap: 3dvh;
   height: calc(100dvh - 20dvh);
   /* border: 1px solid #fff; */
   justify-content: flex-start !important;
