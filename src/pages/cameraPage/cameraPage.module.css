@@ -3,7 +3,7 @@
   height: calc(100dvh - 20dvh);
   /* border: 1px solid #fff; */
   justify-content: flex-start !important;
-  padding: 5dvh 0;
+  /* padding: 5dvh 0; */
   .header {
     /* border: 1px solid #fff; */
     height: 7dvh;
