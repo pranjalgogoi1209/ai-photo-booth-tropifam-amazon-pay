@@ -1,19 +1,19 @@
 .HomePage {
-  gap: 4dvh;
-  height: calc(100dvh - 21dvh);
+  gap: 3dvh;
+  height: calc(100dvh - 20dvh);
   /* border: 1px solid #fff; */
   .avatarContainer {
     /* */
-    border: 1px solid #fff;
-    width: 90%;
-    height: 80%;
+    /* border: 1px solid #fff; */
+    width: 95%;
+    height: 75%;
     flex-wrap: wrap;
     gap: 1.4dvh;
     .horiImg {
-      width: 17.5dvh;
+      width: 20.5dvh;
     }
     .vertImg {
-      width: 18.5dvh;
+      width: 20.8dvh;
       /* border: 10px solid #229c9c; */
     }
   }

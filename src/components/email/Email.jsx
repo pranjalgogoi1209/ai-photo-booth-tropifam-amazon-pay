@@ -18,7 +18,7 @@ import Keyboard from "react-simple-keyboard";
 
 export default function Email({ setShowEmail, url }) {
   const navigate = useNavigate();
-  const [userEmail, setUserEmail] = useState();
+  const [userEmail, setUserEmail] = useState("");
   const [keyboardLayout, setKeyboardLayout] = useState("default");
 
   let [loading, setLoading] = useState(false);

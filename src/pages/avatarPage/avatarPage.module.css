@@ -1,16 +1,18 @@
 .AvatarPage {
-  height: calc(100dvh - 21dvh);
+  height: calc(100dvh - 20dvh);
   gap: 1dvh;
+  /* justify-content: flex-start !important; */
   .headingImgContainer {
-    width: 54dvh;
+    width: 52dvh;
     /* padding-top: 1dvh; */
   }
   .main {
     /* border: 1px solid #fff; */
-    width: 90%;
-    height: 60%;
+    /* border: 2px solid #fff; */
+    width: 95%;
+    height: 78%;
     flex-wrap: wrap;
-    gap: 1dvh;
+    gap: 1.4dvh;
     .singleImg {
       /* overflow: hidden; */
       cursor: pointer;
@@ -56,12 +58,12 @@
       }
     }
     .horiImg {
-      width: 15.5dvh;
+      width: 20.5dvh;
       .hoverContainer {
       }
     }
     .vertImg {
-      width: 15.5dvh;
+      width: 20.8dvh;
       .hoverContainer {
       }
     }

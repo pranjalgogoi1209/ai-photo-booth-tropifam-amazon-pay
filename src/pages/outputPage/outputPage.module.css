@@ -3,7 +3,7 @@
   height: calc(100dvh - 15dvh);
   justify-content: flex-start !important;
   gap: 3dvh;
-  padding: 5dvh 0;
+  /* padding: 5dvh 0; */
 
   .downloadTxtImg {
     width: 55dvh;

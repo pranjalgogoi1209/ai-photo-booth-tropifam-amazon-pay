@@ -4,19 +4,19 @@
   align-items: flex-start;
   flex-direction: row;
   display: flex;
-  height: 17dvh;
+  height: 20dvh;
   padding: 1vh;
-  gap: 9vw;
+  gap: 1vw;
   .payLogo {
     align-self: flex-start;
     /* border: 1px solid #fff; */
     padding: 1.5vh;
-    width: 20dvh;
+    width: 22dvh;
     /* height: 10dvh; */
   }
   .imgContainer {
-    padding-top: 3vh;
-    width: 18.5dvh;
+    /* padding-top: 1vh; */
+    width: 22.5dvh;
     /* border: 1px solid #fff; */
 
     display: flex;

@@ -17,11 +17,14 @@ export const uploadImage = async (base64) => {
   // console.log(base64);
   const dataURL = base64;
   try {
-    const storageRef = ref(storage, `ifest/ifest_images_${Date.now()}.png`);
+    const storageRef = ref(
+      storage,
+      `tropifam/tropifam_images_${Date.now()}.png`
+    );
     // console.log(storageRef)
     await uploadString(storageRef, dataURL, "base64");
     const downloadURL = await getDownloadURL(storageRef);
-    const valueRef = collection(db, "ifest_qr_urls");
+    const valueRef = collection(db, "tropifam_qr_urls");
     await addDoc(valueRef, {
       imageUrl: downloadURL,
       createdAt: Date.now(),
