@@ -1,0 +1,18 @@
+.HomePage {
+  gap: 3dvh;
+  height: calc(100dvh - 15dvh);
+  /* border: 1px solid #fff; */
+  .avatarContainer {
+    /* border: 1px solid #fff; */
+    width: 90%;
+    height: 80%;
+    flex-wrap: wrap;
+    gap: 2dvh;
+    .horiImg {
+      width: 22.5dvh;
+    }
+    .vertImg {
+      width: 18.8dvh;
+    }
+  }
+}

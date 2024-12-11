@@ -1,0 +1,8 @@
+.Header {
+  /* border: 1px solid #fff; */
+  height: 15dvh;
+  .imgContainer {
+    width: 25dvh;
+    /* border: 1px solid #fff; */
+  }
+}
