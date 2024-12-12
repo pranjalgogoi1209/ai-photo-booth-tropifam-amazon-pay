@@ -105,7 +105,7 @@ button {
 }
 
 .btnImg {
-  width: 20dvh;
+  width: 14dvh;
 }
 
 .btn2 {
@@ -140,5 +140,13 @@ button {
   }
   100% {
     clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
+
+@media print {
+  #contentToPrint{
+      page-break-inside: avoid;
+      max-width: 100%;
+      height: auto;
   }
 }
